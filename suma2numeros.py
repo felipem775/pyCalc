@@ -10,4 +10,4 @@ elif  re.match("^[+-]?\d(>?\.\d+)?$", sys.argv[2]) is None:
     print("El segundo parámetro no es un número")
 
 else:
-    print(int(sys.argv[1]) + int(sys.argv[2]))
+    print(float(sys.argv[1]) + float(sys.argv[2]))
